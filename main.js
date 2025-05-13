@@ -4,7 +4,7 @@ const cookieParser = require("cookie-parser")
 const cors = require("cors")
 require('dotenv').config()
 
-const db = require("./db")
+const db = require("./db/db")
 
 
 const srv = express()
